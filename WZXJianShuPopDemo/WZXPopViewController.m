@@ -10,24 +10,12 @@
 #import "RootViewController.h"
 @interface WZXPopViewController ()
 
-
-
-/**
- *  是否显示了popView
- */
-@property(nonatomic,assign) BOOL isShow;
-
-
-
 @end
 
 @implementation WZXPopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    _isShow = NO;
-    
 }
 
 - (void)createPopVCWithRootVC:(UIViewController *)rootVC andPopView:(UIView *)popView
@@ -59,8 +47,6 @@
 
 - (void)close
 {
-    _isShow = NO;
-    
     CGRect frame = _popView.frame;
     frame.origin.y += _popView.frame.size.height;
     
@@ -126,16 +112,6 @@
     }];
    
 }
-
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-//{
-//    //如果没显示
-//    if (!_isShow)
-//    {
-//        [self show];
-//    }
-//    _isShow = YES;
-//}
 
 - (CATransform3D)firstTransform{
     CATransform3D t1 = CATransform3DIdentity;
