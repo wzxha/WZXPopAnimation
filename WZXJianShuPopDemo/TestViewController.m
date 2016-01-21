@@ -26,7 +26,12 @@
         popView.layer.shadowOffset = CGSizeMake(0.5, 0.5);
         popView.layer.shadowOpacity = 0.8;
         popView.layer.shadowRadius = 5;
-        
+    
+        //导航栏一定要加载ROOTVC上面
+        RootViewController * root = [[RootViewController alloc]init];
+        root.title = @"123";
+        UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:root];
+    
         //关闭btn
         UIButton * closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         closeBtn.frame = CGRectMake(15, 0, 50, 40);
@@ -35,8 +40,17 @@
         [closeBtn addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
         [popView addSubview:closeBtn];
     
+        //开启btn
+        UIButton * openBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        openBtn.frame = CGRectMake((self.view.frame.size.width - 100)/2.0, 300, 100, 40);
+        [openBtn setTitle:@"开启" forState:UIControlStateNormal];
+        [openBtn setTitleColor:[UIColor colorWithRed:217/255.0 green:110/255.0 blue:90/255.0 alpha:1] forState:UIControlStateNormal];
+        [openBtn addTarget:self action:@selector(show) forControlEvents:UIControlEventTouchUpInside];
+        //组件也要加在rootVC上面
+        [root.view addSubview:openBtn];
+   
     
-    [self createPopVCWithRootVC:[[RootViewController alloc] init] andPopView:popView];
+    [self createPopVCWithRootVC:nav andPopView:popView];
 }
 
 - (void)didReceiveMemoryWarning {

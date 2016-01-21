@@ -127,15 +127,15 @@
    
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
-    //如果没显示
-    if (!_isShow)
-    {
-        [self show];
-    }
-    _isShow = YES;
-}
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+//{
+//    //如果没显示
+//    if (!_isShow)
+//    {
+//        [self show];
+//    }
+//    _isShow = YES;
+//}
 
 - (CATransform3D)firstTransform{
     CATransform3D t1 = CATransform3DIdentity;
