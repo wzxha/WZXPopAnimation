@@ -29,7 +29,7 @@
     
         //导航栏一定要加载ROOTVC上面
         RootViewController * root = [[RootViewController alloc]init];
-        root.title = @"123";
+        root.title = @"WZXPop";
         UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:root];
     
         //关闭btn
