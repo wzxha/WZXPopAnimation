@@ -31,7 +31,7 @@
 @property(nonatomic,strong) UIView * maskView;
 
 /**
- *  初始化 rootVC 根VC， popView 弹出的view
+ *  初始化 rootVC:根VC， popView:弹出的view
  */
 - (void)createPopVCWithRootVC:(UIViewController *)rootVC andPopView:(UIView *)popView;
 

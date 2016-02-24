@@ -89,7 +89,7 @@
     [[UIApplication sharedApplication].windows[0] addSubview:_popView];
     
     CGRect frame = _popView.frame;
-    frame.origin.y = _popView.frame.size.height;
+    frame.origin.y = self.view.bounds.size.height - _popView.frame.size.height;
     
     [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         
