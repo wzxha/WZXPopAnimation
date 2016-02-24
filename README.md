@@ -18,6 +18,7 @@ Demo内的```TestViewController```为测试的VC，使用该动画的方法可�
 * 2016.1.21 
    *  更新怎么加导航栏
    *  更新怎么把点击方法加到自己创建的Btn上
+   *  感谢[简书:反方向de钟](http://www.jianshu.com/users/4f002d4502b5/timeline)的反馈，修改了不能改变popview大小的bug
 
 ###PS
 更加详细的讲解在[简书:WzxJiang](http://www.jianshu.com/p/a697d2a38b3c)
