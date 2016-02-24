@@ -57,6 +57,9 @@
         //popView下降
         _popView.frame = frame;
         
+        //同时进行 感觉更丝滑
+        [_rootview.layer setTransform:[self firstTransform]];
+        
     } completion:^(BOOL finished) {
         
         [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
@@ -71,15 +74,6 @@
         
     }];
     
-    
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-       
-        //和上个动画同时进行 感觉更丝滑
-        [_rootview.layer setTransform:[self firstTransform]];
-       
-    } completion:^(BOOL finished) {
-        
-    }];
 
     
 }
