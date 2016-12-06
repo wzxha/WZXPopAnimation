@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4BE2908F1C47C3D900A4B47A"
-               BuildableName = "WZXJianShuPopDemo.app"
-               BlueprintName = "WZXJianShuPopDemo"
-               ReferencedContainer = "container:WZXJianShuPopDemo.xcodeproj">
+               BlueprintIdentifier = "1E86C5911DF6A48600F21E5E"
+               BuildableName = "WZXPopAnimation.app"
+               BlueprintName = "WZXPopAnimation"
+               ReferencedContainer = "container:WZXPopAnimation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4BE290A81C47C3D900A4B47A"
-               BuildableName = "WZXJianShuPopDemoTests.xctest"
-               BlueprintName = "WZXJianShuPopDemoTests"
-               ReferencedContainer = "container:WZXJianShuPopDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4BE290B31C47C3D900A4B47A"
-               BuildableName = "WZXJianShuPopDemoUITests.xctest"
-               BlueprintName = "WZXJianShuPopDemoUITests"
-               ReferencedContainer = "container:WZXJianShuPopDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BE2908F1C47C3D900A4B47A"
-            BuildableName = "WZXJianShuPopDemo.app"
-            BlueprintName = "WZXJianShuPopDemo"
-            ReferencedContainer = "container:WZXJianShuPopDemo.xcodeproj">
+            BlueprintIdentifier = "1E86C5911DF6A48600F21E5E"
+            BuildableName = "WZXPopAnimation.app"
+            BlueprintName = "WZXPopAnimation"
+            ReferencedContainer = "container:WZXPopAnimation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BE2908F1C47C3D900A4B47A"
-            BuildableName = "WZXJianShuPopDemo.app"
-            BlueprintName = "WZXJianShuPopDemo"
-            ReferencedContainer = "container:WZXJianShuPopDemo.xcodeproj">
+            BlueprintIdentifier = "1E86C5911DF6A48600F21E5E"
+            BuildableName = "WZXPopAnimation.app"
+            BlueprintName = "WZXPopAnimation"
+            ReferencedContainer = "container:WZXPopAnimation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4BE2908F1C47C3D900A4B47A"
-            BuildableName = "WZXJianShuPopDemo.app"
-            BlueprintName = "WZXJianShuPopDemo"
-            ReferencedContainer = "container:WZXJianShuPopDemo.xcodeproj">
+            BlueprintIdentifier = "1E86C5911DF6A48600F21E5E"
+            BuildableName = "WZXPopAnimation.app"
+            BlueprintName = "WZXPopAnimation"
+            ReferencedContainer = "container:WZXPopAnimation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

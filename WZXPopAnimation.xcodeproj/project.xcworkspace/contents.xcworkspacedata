@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WZXJianShuPopDemo.xcodeproj">
+      location = "self:WZXPopAnimation.xcodeproj">
    </FileRef>
 </Workspace>

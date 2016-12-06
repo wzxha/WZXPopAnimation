@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WZXJianShuPopDemo.xcscheme</key>
+		<key>WZXPopAnimation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4BE2908F1C47C3D900A4B47A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4BE290A81C47C3D900A4B47A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4BE290B31C47C3D900A4B47A</key>
+		<key>1E86C5911DF6A48600F21E5E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

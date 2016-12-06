@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  WZXJianShuPopDemo
+//  WZXPopAnimation
 //
-//  Created by wordoor－z on 16/1/14.
-//  Copyright © 2016年 wzx. All rights reserved.
+//  Created by WzxJiang on 16/12/6.
+//  Copyright © 2016年 WzxJiang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
